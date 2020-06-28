@@ -29,7 +29,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1589126813",
+        "cacheTag": "1593354090",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -51,20 +51,20 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "World - overworld",
-            "last_rendertime": 1589125811,
+            "last_rendertime": 1593284907,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 -224,
-                96,
+                80,
                 64
             ],
             "minZoom": 0,
             "spawn": [
                 -224,
-                96,
+                80,
                 64
             ],
             "north_direction": 0
@@ -78,14 +78,14 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "World - nether",
-            "last_rendertime": 1589121426,
+            "last_rendertime": 1593271799,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 -224,
-                96,
+                80,
                 64
             ],
             "minZoom": 0,
@@ -101,14 +101,14 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "World - end",
-            "last_rendertime": 1589068564,
+            "last_rendertime": 1590190334,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 -224,
-                96,
+                80,
                 64
             ],
             "minZoom": 0,
