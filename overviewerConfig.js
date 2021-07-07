@@ -5,10 +5,10 @@ var overviewerConfig = {
             "defaultMarker": "signpost.png",
             "signMarker": "signpost_icon.png",
             "bedMarker": "bed.png",
-            "spawnMarker": "icons/marker_home.png",
-            "spawnMarker2x": "icons/marker_home_2x.png",
-            "queryMarker": "icons/marker_location.png",
-            "queryMarker2x": "icons/marker_location_2x.png",
+            "spawnMarker": "markers/marker_home.png",
+            "spawnMarker2x": "markers/marker_home_2x.png",
+            "queryMarker": "markers/marker_location.png",
+            "queryMarker2x": "markers/marker_location_2x.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
@@ -24,12 +24,11 @@ var overviewerConfig = {
     },
     "worlds": [
         "World - overworld",
-        "World - nether",
-        "World - end"
+        "World - nether"
     ],
     "map": {
-        "debug": true,
-        "cacheTag": "1593354090",
+        "debug": false,
+        "cacheTag": "1625616178",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -44,72 +43,72 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "Overworld",
-            "zoomLevels": 11,
+            "zoomLevels": 21,
             "defaultZoom": 1,
-            "maxZoom": 11,
-            "path": "Overworld",
+            "maxZoom": 21,
+            "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "World - overworld",
-            "last_rendertime": 1593284907,
+            "last_rendertime": 1625615994,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                -224,
-                80,
-                64
+                0,
+                99,
+                192
             ],
             "minZoom": 0,
             "spawn": [
-                -224,
-                80,
-                64
+                0,
+                99,
+                192
             ],
             "north_direction": 0
         },
         {
-            "name": "Nether",
-            "zoomLevels": 8,
+            "name": "Nether Ceiling",
+            "zoomLevels": 7,
             "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "Nether",
+            "maxZoom": 7,
+            "path": "nether_ceil",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "World - nether",
-            "last_rendertime": 1593271799,
+            "last_rendertime": 1625535514,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                -224,
-                80,
-                64
+                0,
+                99,
+                192
             ],
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
         },
         {
-            "name": "End",
-            "zoomLevels": 9,
+            "name": "Nether",
+            "zoomLevels": 7,
             "defaultZoom": 1,
-            "maxZoom": 9,
-            "path": "End",
+            "maxZoom": 7,
+            "path": "nether",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "World - end",
-            "last_rendertime": 1590190334,
+            "world": "World - nether",
+            "last_rendertime": 1625535514,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                -224,
-                80,
-                64
+                0,
+                99,
+                192
             ],
             "minZoom": 0,
             "spawn": false,
